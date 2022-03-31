@@ -5,7 +5,7 @@ use jni::{
 
 #[allow(non_snake_case)]
 #[no_mangle]
-pub unsafe extern "C" fn Java_com_leaf_example_aleaf_SimpleVpnService_runLeaf(
+pub unsafe extern "C" fn Java_hk_nahdd_telev_SimpleVpnService_runLeaf(
     env: JNIEnv,
     _: JClass,
     config_path: JString,
@@ -33,7 +33,7 @@ pub unsafe extern "C" fn Java_com_leaf_example_aleaf_SimpleVpnService_runLeaf(
 
 #[allow(non_snake_case)]
 #[no_mangle]
-pub unsafe extern "C" fn Java_com_leaf_example_aleaf_SimpleVpnService_stopLeaf(
+pub unsafe extern "C" fn Java_hk_nahdd_telev_SimpleVpnService_stopLeaf(
     _: JNIEnv,
     _: JClass,
 ) {

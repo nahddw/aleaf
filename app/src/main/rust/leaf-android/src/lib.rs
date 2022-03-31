@@ -40,3 +40,17 @@ pub unsafe extern "C" fn Java_hk_nahdd_telev_SimpleVpnService_stopLeaf(
 ) {
     leaf::shutdown(0);
 }
+
+//add
+#[allow(non_snake_case)]
+#[no_mangle]
+pub unsafe extern "C" fn Java_hk_nahdd_telev_SimpleVpnService_isRunning(
+    _: JNIEnv,
+    _: JClass,
+) -> sys::jboolean {
+    if leaf::is_running(0) {
+        sys::JNI_TRUE
+    } else {
+        sys::JNI_FALSE
+    }
+}

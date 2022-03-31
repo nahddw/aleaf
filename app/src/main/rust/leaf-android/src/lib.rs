@@ -31,6 +31,7 @@ pub unsafe extern "C" fn Java_hk_nahdd_telev_SimpleVpnService_runLeaf(
     leaf::start(0, opts).unwrap();
 }
 
+//test
 #[allow(non_snake_case)]
 #[no_mangle]
 pub unsafe extern "C" fn Java_hk_nahdd_telev_SimpleVpnService_stopLeaf(

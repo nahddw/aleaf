@@ -797,7 +797,7 @@ checksum = "830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55"
 [[package]]
 name = "leaf"
 version = "0.1.2"
-source = "git+https://github.com/eycorsican/leaf.git#2b042bed83b9356e41275ff7a54f1776977ca5e8"
+source = "git+https://github.com/eycorsican/leaf.git#de4de722b15fc44d7f7d5c9919597e5923644c19"
 dependencies = [
  "aes",
  "anyhow",
@@ -1954,7 +1954,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "wasm-bindgen-backend"
+name = "wasm-bindgen-backend".
 version = "0.2.73"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ae70622411ca953215ca6d06d3ebeb1e915f0f6613e3b495122878d7ebec7dae"

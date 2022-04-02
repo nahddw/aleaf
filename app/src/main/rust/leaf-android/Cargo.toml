@@ -15,5 +15,5 @@ default = [
 ]
 
 [dependencies]
-leaf = { git = "https://github.com/eycorsican/leaf.git", package = "leaf", default-features = false }
+leaf = { git = "https://github.com/nahddw/leaf.git", package = "leaf", default-features = false }
 jni = { version = "0.19", default-features = false }
